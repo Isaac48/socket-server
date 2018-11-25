@@ -22,6 +22,7 @@ node dist/
 
 git status
 git add .
+```
 git commit -m "Segundo commit - update README.md"
 git push -u origin master
 ```
