@@ -18,16 +18,17 @@ nodemon dist/
 node dist/
 ```
 
-# Hacer commit
+Hacer commit
+```
 
 git status
 git add .
-```
 git commit -m "Segundo commit - update README.md"
 git push -u origin master
 ```
 
-# Crear un Tag
+Crear un Tag
+```
 
 git tag
 git tag -a v1.0.0 -m "Rest Server listo"
