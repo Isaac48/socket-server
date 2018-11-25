@@ -17,7 +17,7 @@ Levantar servisor, cualquiera de estos dos comandos
 nodemon dist/
 node dist/
 ```
-# hacer commit
+# Hacer commit
 git status
 git add .
 git commit -m "Segundo commit - update README.md"
