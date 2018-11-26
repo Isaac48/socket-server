@@ -1,8 +1,13 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 import { Router, Request, Response } from 'express';
 
 const router = Router();
 
+<<<<<<< HEAD
 
 
 router.get('/mensajes', ( req: Request, res: Response  ) => {
@@ -15,6 +20,17 @@ router.get('/mensajes', ( req: Request, res: Response  ) => {
 });
 
 router.post('/mensajes', ( req: Request, res: Response  ) => {
+=======
+router.get ('/mensajes', (req: Request, res: Response) =>{
+
+    res.json({
+        ok: true,
+        mensaje: 'Soy el get!!'
+    });
+});
+
+router.post ('/mensajes', (req: Request, res: Response) =>{
+>>>>>>> origin/master
 
     const cuerpo = req.body.cuerpo;
     const de     = req.body.de;
@@ -24,11 +40,17 @@ router.post('/mensajes', ( req: Request, res: Response  ) => {
         cuerpo,
         de
     });
+<<<<<<< HEAD
 
 });
 
 
 router.post('/mensajes/:id', ( req: Request, res: Response  ) => {
+=======
+});
+
+router.post ('/mensajes/:id', (req: Request, res: Response) =>{
+>>>>>>> origin/master
 
     const cuerpo = req.body.cuerpo;
     const de     = req.body.de;
@@ -40,6 +62,7 @@ router.post('/mensajes/:id', ( req: Request, res: Response  ) => {
         de,
         id
     });
+<<<<<<< HEAD
 
 });
 
@@ -48,3 +71,8 @@ router.post('/mensajes/:id', ( req: Request, res: Response  ) => {
 export default router;
 
 
+=======
+});
+
+export default router;
+>>>>>>> origin/master

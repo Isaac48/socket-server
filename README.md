@@ -58,5 +58,11 @@ git tag -a v1.0.0 -m "Rest Server listo"
 git push --tags
 ```
 
+Ver los conflictos
+```
+git merge origin/master --allow-unrelated-histories
+```
+
+
 
 
