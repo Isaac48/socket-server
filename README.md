@@ -61,6 +61,8 @@ git push --tags
 Ver los conflictos
 ```
 git merge origin/master --allow-unrelated-histories
+
+git push --set-upstream origin master    => ayuda con el error La rama actual master no tiene una rama upstream. al hacer un git push
 ```
 
 
